@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmic Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Background container with your PNG -->
+    <div class="background-container">
+        <img src="tinted_planet.png" alt="Cosmic Background" class="cosmic-bg">
+    </div>
+    
+    <!-- Particle overlay -->
+    <canvas id="particles"></canvas>
+    
+    <!-- Glowing cursor -->
+    <div class="custom-cursor"></div>
+    
+    <!-- Content -->
+    <div class="content">
+        <!-- Your portfolio content here -->
+        <h1 class="glow-text">Welcome to My <span class="pulse">Cosmic</span> Portfolio</h1>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
